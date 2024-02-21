@@ -1,0 +1,19 @@
+.grid-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    border: 5px solid #000;
+    height: 500px;
+}
+
+.grid-item
+{
+    width: calc(100% / 16); 
+    height: calc(100% / 16);
+    box-sizing: border-box;
+    border: 1px solid #000;
+    margin: 0;
+}
